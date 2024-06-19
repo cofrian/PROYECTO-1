@@ -81,7 +81,7 @@ else:
    st.write(df)
 
 #Cargar modelo
-load_modelo  = pickle.load(open('app_heart/model_heart.pkl', 'rb'))
+load_modelo  = pickle.load(open('https://github.com/cofrian/PROYECTO-1/blob/427247708ae9b68e5031a69aece19b779a2384cb/app_heart/model_heart.pkl', 'rb'))
 
 #aplicar modelo
 prediccion = load_modelo.predict(df)
