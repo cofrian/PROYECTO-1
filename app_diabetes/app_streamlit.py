@@ -65,7 +65,7 @@ else:
    st.write(df)
 
 #Cargar modelo
-load_modelo  = pickle.load(open('model_diabetes.pkl', 'rb'))
+load_modelo  = pickle.load(open('./app_diabetes/model_diabetes.pkl', 'rb'))
 
 #aplicar modelo
 prediccion = load_modelo.predict(df)
