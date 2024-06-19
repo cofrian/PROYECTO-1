@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import LabelEncoder
+
 
 #Configuración página de Streamlit
 st.set_page_config(page_title="App de predicción de Apoplejía",
