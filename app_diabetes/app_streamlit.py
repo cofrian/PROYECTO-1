@@ -16,7 +16,7 @@ st.markdown('Esta aplicación es una herramienta que permite predecir si un paci
 st.markdown("""---""")
 
 #logo barra lateral 
-logo = "28998.jpg"
+logo = "./app_diabetes/28998.jpg"
 st.sidebar.image(logo, width=150  )
 
 #datos del paciente
