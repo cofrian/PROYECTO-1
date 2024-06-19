@@ -16,6 +16,9 @@ st.markdown('Esta aplicación es una herramienta que permite predecir si un paci
 st.markdown("""---""")
 
 
+#logo barra lateral 
+logo = "/app_heart/logo.jpg"
+st.sidebar.image(logo, width=300)
 
 #datos del paciente
 st.sidebar.header('Datos del paciente')
