@@ -17,7 +17,7 @@ st.markdown("""---""")
 
 
 #logo barra lateral 
-logo = "PROYECTO-1/app_heart/logo.jpg"
+logo = "./app_heart/logo.jpg"
 st.sidebar.image(logo, width=300)
 
 #datos del paciente
