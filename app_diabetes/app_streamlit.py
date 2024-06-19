@@ -6,7 +6,7 @@ import sklearn
 
 #Configuración página de Streamlit
 st.set_page_config(page_title="App de predicción de Diabetes",
-                     page_icon='5935562.png',
+                     page_icon='./app_diabetes/5935562.png',
                      layout='centered',
                      initial_sidebar_state='auto')
 
