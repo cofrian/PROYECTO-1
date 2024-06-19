@@ -87,7 +87,7 @@ else:
 load_modelo  = pickle.load(open('./app_heart/model_heart.pkl', 'rb'))
 
 #aplicar modelo
-prediccion = load_modelo.predicts(df)
+prediccion = load_modelo.predict(df)
 prediccion_proba = load_modelo.predict_proba(df)
 
 col1, col2 = st.columns(2) 
