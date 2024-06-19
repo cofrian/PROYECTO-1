@@ -17,7 +17,7 @@ st.markdown("""---""")
 
 
 #logo barra lateral 
-logo = "/app_heart/logo.jpg"
+logo = "PROYECTO-1/app_heart/logo.jpg"
 st.sidebar.image(logo, width=300)
 
 #datos del paciente
@@ -84,7 +84,7 @@ else:
    st.write(df)
 
 #Cargar modelo
-load_modelo  = pickle.load(open('/app_heart/model_heart.pkl', 'rb'))
+load_modelo  = pickle.load(open('PROYECTO-1/app_heart/model_heart.pkl', 'rb'))
 
 #aplicar modelo
 prediccion = load_modelo.predict(df)
