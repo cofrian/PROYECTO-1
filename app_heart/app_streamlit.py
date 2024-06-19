@@ -15,9 +15,7 @@ st.title('App de predicción de enfermedades cardiacas')
 st.markdown('Esta aplicación es una herramienta que permite predecir si un paciente tiene una enfermedad cardíaca o no. Para ello, se han utilizado datos de pacientes con y sin enfermedades cardíacas para entrenar un modelo de Machine Learning. A continuación, se solicitarán algunos datos del paciente y se mostrará la predicción del modelo.')
 st.markdown("""---""")
 
-#logo barra lateral 
-logo = "logo.jpg"
-st.sidebar.image(logo, width=300)
+
 
 #datos del paciente
 st.sidebar.header('Datos del paciente')
