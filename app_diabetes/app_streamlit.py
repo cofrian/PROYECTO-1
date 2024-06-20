@@ -31,7 +31,7 @@ else:
       #Controles deslizantes
       edad = st.sidebar.slider('Edad', 0, 80, 47)
       genero = st.sidebar.selectbox('Genero', ('Hombre', 'Mujer'))
-      hipertension = st.sidebar.selectbox('Hipertensión', ('Sí', 'No')) 
+      hipertension = st.sidebar.selectbox('Hipertensión', ('Si', 'No')) 
       nivel_glucosa_sangre = st.sidebar.slider('Nivel medio de glucosa', 80, 300, 139)
       HbA1c= st.sidebar.slider('Nivel medio de HbA1c', 3, 9,56)
       imc=st.sidebar.slider('Indice de masa corporal', 10, 91,28)
